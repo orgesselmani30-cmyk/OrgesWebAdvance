@@ -1,0 +1,47 @@
+h1{
+  color:green;
+  letter-spacing:20px;
+  word-spacing:10px;
+  text-indent:60px;
+
+      
+}
+p{
+  color:rgb(55, 0, 128);
+  
+  text-indent:60px;     
+}
+
+h2{
+text-decoration: overline;
+color:blue;
+
+}
+
+
+h3{
+text-decoration:line-through;
+color:red;
+}
+
+
+
+h4{
+text-decoration:under-line;
+color:coral;
+}
+
+a{
+text-decoration:none;
+color:purple;
+
+}
+
+.myelement{
+
+
+    color: blue;
+}
+#myelement{
+    color: chocolate;
+}
