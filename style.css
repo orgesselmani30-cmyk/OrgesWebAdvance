@@ -1,47 +1,45 @@
-h1{
-  color:green;
-  letter-spacing:20px;
-  word-spacing:10px;
-  text-indent:60px;
-
-      
-}
-p{
-  color:rgb(55, 0, 128);
-  
-  text-indent:60px;     
+article p{
+ background:blue ;
+ color:white;
+ paddding:20px;
 }
 
-h2{
-text-decoration: overline;
-color:blue;
-
+article> p{
+background-:red ;
 }
 
 
-h3{
-text-decoration:line-through;
-color:red;
+article ~ p{
+background: purple;
+color: white;
+padding: 20px;
 }
 
-
-
-h4{
-text-decoration:under-line;
-color:coral;
+article + p{
+background: orange;
 }
 
-a{
-text-decoration:none;
-color:purple;
+input: :out-of-range{
+border: 3px solid red;
 
 }
 
-.myelement{
+span:first-of-type{
+background: black;
 
-
-    color: blue;
 }
-#myelement{
-    color: chocolate;
+
+form{
+
+margin-top:20px;
+}
+
+input:invalid{
+    border:2px solid red;
+
+
+}
+
+input:valid{
+    border:2px solid green
 }
