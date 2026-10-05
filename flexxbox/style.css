@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+     border: 5px solid;
+     background-color:forestgreen;
+}
+
+.card{
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
