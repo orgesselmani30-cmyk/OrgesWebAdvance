@@ -1,13 +1,13 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #111;
+    background-color: #242424;
     color: white;
 
 }
 
 .navbar{
-    background-color: grey;
+    background-color: #641E32;
     padding: 10px;
     display:flex ;
     justify-content: space-between;
@@ -20,8 +20,9 @@ body{
 
 
 
+
 .logo{
-    color:gold;
+    color:#D4AF37;
     font-size: 24px;
     font-weight: bold;
    text-decoration: none;
@@ -45,11 +46,8 @@ body{
 
 
 
-
-
-
 .nav-links a:hover{
-    color: gold;
+    color: #641E32;
 }
 
 
@@ -58,6 +56,7 @@ body{
 
 h1{
     font-size: 45px;
+     color: #641E32;
     
 }
 
@@ -65,7 +64,7 @@ h1{
 
 h2{
 
-    color: gold;
+    color: #D4AF37;
 }
 
 .design{
@@ -75,14 +74,14 @@ color: gold;
 .btn{
     display: inline-block;
     background-color: gold;
-    color: black;
+    color: #641E32;
     padding: 10px 20px;
     text-decoration: none;
     margin-top: 10px;
 }
 
 .btn:hover{
-    background-color: white;
+    background-color:white;
 
 
 }
@@ -107,10 +106,15 @@ color: gold;
 .featured img,
 .about-content img{
     width: 50%;
+    
 }
 
 h3{
-    color: gold;
+    color: #641E32;
+}
+
+h4{
+    color: #641E32;
 }
 
 
@@ -125,12 +129,18 @@ h3{
 .values article,
 .car-card{
     background-color: #222;
-    padding: 20px;
-    margin: 10px;
+    padding: 40px;
+    margin: 15px;
 }
 
+
+
+
+
+
+
 .shop-grid{
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -138,12 +148,13 @@ h3{
 
 
 .car-card{
-    width: 280px;
+    width: 300px;
 
 }
 
 .car-card img{
     width:100%;
+   margin-right:70px;
 
 }
 
@@ -154,7 +165,7 @@ table{
 
 th,td{
     padding: 12px;
-    border: 1px solid gold;
+    border: 1px solid #641E32;
 }
 
 th{
@@ -164,12 +175,12 @@ th{
 footer{
     text-align: center;
     padding: 20px;
-    background-color: black;
-    color: gray;
+    background-color: #641E32;
+    color: #D4AF37;
 }
 
 a{
-    color: gold;
+    color: #D4AF37;
 }
 
 
