@@ -1,17 +1,47 @@
+var programingLanguages =['JavaScript','PHP','ython'];
 
-function mbledhja(numri1,numri2,numri3){
-    var rezultati=numri1+numri2+numri3;
-    console.log(rezultati)
-}
+console.log(programingLanguages);
+console.log(programingLanguages[0]);
 
-mbledhja(55,44,66)
+programingLanguages.push('Java')
+console.log(programingLanguages);
+
+programingLanguages.pop();
+console.log(programingLanguages)
+
+programingLanguages.unshift('c#');
+
+console.log(programingLanguages)
 
 
+programingLanguages.shift();
+console.log(programingLanguagess)
 
 
-function sip_trekendeshi(bl,height){
-    var rezultati=0.5*bl*heght;
-    console.log(rezultati)
-}
+programingLanguages.splice(0,2,'Ruby');
 
-sip_trekendeshi(10,20)
+console.log(Math.floor(Math.random()*5))
+
+
+console.log(Math.random()*5));
+
+var students=['Student1,'Student2'];
+
+ var[s1,s1]=students;
+ 
+ console.log(s1);
+  console.log(s2);
+
+
+  var places=["lodon","Paris","new york","berlin"];
+
+  var[firstPlace,secondPlace]=places;
+  console.log(secondPlace)
+
+  var numbers=[1,2,3,4,5,6,7,8,9,10];
+
+  var [first,second,others]=numbers;
+
+  console.log(first);
+  console.log(second)
+  console.log(others.toString());
