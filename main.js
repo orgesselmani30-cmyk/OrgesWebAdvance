@@ -42,10 +42,10 @@ if(!(name.match(valid_name_regex)))
 
 	if(city == ""){
 		document.getElementById("city_error").style.visibility = "visible";
-		document.getElementById("city").style.borderColor = "red";
+		  document.getElementById("city").style.borderColor = "red";
 	}else{
 		document.getElementById("city_error").style.visibility = "hidden";
-		document.getElementById("city").style.borderColor = "black";
+		  document.getElementById("city").style.borderColor = "black";
 	}
 }
 ```[cite: 3]
